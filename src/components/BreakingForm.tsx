@@ -35,7 +35,7 @@ export const BreakingForm = () => {
           <div className="flex gap-4">
             <div className="mb-6">
               <label htmlFor="success" className="block mb-2 text-base font-medium text-white">First name</label>
-              <Field name="firstName" className="border bg-white text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed " />
+              <Field name="firstName" className="border  bg-white text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed " />
               {errors.firstName && touched.firstName
                 ? (
                   <div className="mt-2 text-sm text-red-600">{errors.firstName}</div>
