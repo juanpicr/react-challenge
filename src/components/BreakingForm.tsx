@@ -38,7 +38,7 @@ export const BreakingForm = () => {
               <Field name="firstName" className="border bg-white text-gray-900 text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed " />
               {errors.firstName && touched.firstName
                 ? (
-                  <div className="mt-2 text-sm text-red-600 dark:text-red-500">{errors.firstName}</div>
+                  <div className="mt-2 text-sm text-red-600">{errors.firstName}</div>
                 )
                 : null}
             </div>
